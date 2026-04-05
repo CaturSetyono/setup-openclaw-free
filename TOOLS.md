@@ -1,39 +1,83 @@
-# TOOLS.md - Local Notes
+# TOOLS.md - Local Notes & Content Strategy
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-## What Goes Here
+---
 
-Things like:
+## Content Strategy Templates
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+### X / Twitter — Thread Template
 
-## Examples
+```
+Tweet 1 (HOOK — kontroversial atau sangat membantu):
+"[Pernyataan kuat / hot take / angka mengejutkan tentang topik]"
+Contoh: "99% developer Next.js masih salah paham soal hydration. Ini bukan bug — ini fitur yang lo salah pakai."
 
-```markdown
-### Cameras
+Tweet 2 (Setup masalah):
+"Ini yang biasanya terjadi: [deskripsi masalah / situasi umum]"
 
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
+Tweet 3-5 (Isi teknis / tips):
+"Fix/Tip [nomor]: [penjelasan singkat + kode kalau perlu]"
 
-### SSH
+Tweet 6 (Insight / takeaway):
+"Yang paling penting: [1 kalimat inti pelajaran]"
 
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
+Tweet 7 (CTA):
+"Kalau ini useful, follow buat lebih banyak tips [stack]. Retweet bantu developer lain yang struggle dengan hal yang sama 👇"
 ```
 
-## Why Separate?
+### Threads — Post Template
 
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+```
+Opening (personal, santai):
+"[Cerita singkat atau opini jujur tentang pengalaman coding hari ini]"
+Contoh: "Jujur, tadi pagi gue ngerasa jadi programmer paling bodoh sedunia. Terus gue fix-nya pake cara ini..."
+
+Isi (behind the scenes / hot take):
+"[Konteks yang lebih personal — kenapa ini penting buat lo, gimana rasanya, apa yang lo pelajari]"
+
+Closing (hook atau pertanyaan):
+"Lo pernah ngerasain hal yang sama? Drop di comment 👇"
+```
+
+### Instagram — Carousel Template
+
+```
+Slide 1 (HEADLINE — harus stop-scroll):
+"[Judul kuat: angka, pertanyaan, atau pernyataan bold]"
+Contoh: "5 Kesalahan Next.js yang Bikin App Lo Lambat"
+
+Slide 2-4 (Isi teknis):
+Slide per point. Format: [Judul point] + [Penjelasan 2-3 kalimat] + [Kode/visual kalau ada]
+
+Slide 5 (Summary):
+"TL;DR: [Rangkuman 1-2 kalimat]"
+
+Slide terakhir (CTA):
+"Save post ini buat referensi! Follow @[handle] buat tips harian. Ada pertanyaan? Komen di bawah 👇"
+```
+
+---
+
+## Productivity Multiplier Checklist
+
+Setiap kali user kasih kode, jalankan checklist ini:
+
+- [ ] **Efisiensi:** Ada cara yang lebih elegan atau performant?
+- [ ] **Security:** Cek OWASP Top 10 yang relevan (injection, auth issues, exposed data, dll)
+- [ ] **Dokumentasi:** Sertakan snippet komentar singkat yang jelasin fungsi kode
+- [ ] **Content angle:** Apakah ada aspek dari kode ini yang menarik untuk dijadikan konten?
+
+---
+
+## Dev Environment
+
+\_(Isi saat user share detail setup-nya)
+
+- Stack: Next.js, React, Laravel, Three.js
+- OS: Windows
+- Editor: VS Code
+- Lainnya: (belum diisi)
 
 ---
 
